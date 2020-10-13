@@ -1,0 +1,176 @@
+/*GERAIS*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+.container{
+    padding: 70px 0px;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+#logo{
+    width: 150px;
+}
+
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #fff;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/*Validaçao de cnpj*/
+.main-title{
+    color: #444;
+    margin: 65px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+#area-cnpj{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#area-cnpj p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#cnpj-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #ee9121;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#cnpj-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid  #ee9121;
+    background-color:  #ee9121;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -100px;
+    position: absolute;
+    transition: .5s;
+}
+
+#cnpj-btn:hover{
+    background-color: #fff;
+    color:  #ee9121;
+}
+
+/*Validação de digitos*/
+#area-cnpjdigts{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#area-cnpjdigts p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#cnpjdigts-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid  #ee9121;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#cnpjdigts-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #ee9121;
+    background-color: #ee9121;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -100px;
+    position: absolute;
+    transition: .5s;
+}
+
+#cnpjdigts-btn:hover{
+    background-color: #fff;
+    color:  #ee9121;
+}
+#kaffa-title{
+    color:  #ee9121;
+}
+
+/* Rodape */
+/* Copy */
+
+#copy-area{
+    background-color: #f1f1f1;
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color:  #ee9121;
+}
